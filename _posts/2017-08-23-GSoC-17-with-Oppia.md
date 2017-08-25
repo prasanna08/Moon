@@ -38,7 +38,7 @@ The aim of the project was to set up infrastructure for training machine learnin
 
 There are three main parts in the architecture shown above:
 
-![Markdowm Image][1]
+![Markdowm Image][https://github.com/prasanna08/prasanna08.github.io/blob/gh-pages/assets/img/Oppia-ml%20architecture.jpg]
 
 1. Frontend: this is where the student and the tutor interacts with Oppia. The prediction for new answers submitted by students also happens in frontend.
     * Initially, the creator (tutor) of an exploration creates and submits the training data in the editor view of the exploration. Then this training data is transferred to the backend along with other modifications made by creator. A new classifier training job is created whenever creator creates the training data for the first time or modifies the training data.
@@ -144,13 +144,11 @@ Week #3:
 
 
 ## References
-1. Oppia-ml GitHub repository: https://github.com/oppia/oppia-ml
-2. Commits on Oppia-ml: https://github.com/oppia/oppia-ml/pulls?q=is%3Apr+author%3Aprasanna08+is%3Aclosed
-3. Commits on Oppia (in span of GSoC’s 3 months): https://github.com/oppia/oppia/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Aprasanna08%20is%3Aclosed%20updated%3A%3E%3D2017-03-01%20
-4. GSoC project proposal: https://docs.google.com/document/d/1GoiQHKuIoVTLofE5J-rmff3GnpK44T2uylcFKIWLMkk
-5. Daily devlog: https://docs.google.com/document/d/1Idpae5ohpdl0I1fGKhJWXTq5mCHiezF1S8qWZKTTaQQ
-6. Researching code classifier (summary of various research papers): https://docs.google.com/document/d/1f1A5egdmMUQvAR5a42R8mC-PCU-ZWGq18sFMBuXyefQ
-7. Code classifier dataset and code for all experimented classifier: https://github.com/prasanna08/code-classifier-dataset
-8. Performance comparison of various classifiers on code classifier dataset: https://docs.google.com/spreadsheets/d/1tUdXqvox6Qbd9gm23JXO8HecEG466v9WL6U4Ek1gSJA
-
-[1]: https://github.com/prasanna08/prasanna08.github.io/blob/master/assets/img/Oppia-ml%20architecture.jpg
+1. Oppia-ml GitHub repository: [https://github.com/oppia/oppia-ml]
+2. Commits on Oppia-ml: [https://github.com/oppia/oppia-ml/pulls?q=is%3Apr+author%3Aprasanna08+is%3Aclosed]
+3. Commits on Oppia (in span of GSoC’s 3 months): [https://github.com/oppia/oppia/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Aprasanna08%20is%3Aclosed%20updated%3A%3E%3D2017-03-01%20
+4. GSoC project proposal: https://docs.google.com/document/d/1GoiQHKuIoVTLofE5J-rmff3GnpK44T2uylcFKIWLMkk]
+5. Daily devlog: [https://docs.google.com/document/d/1Idpae5ohpdl0I1fGKhJWXTq5mCHiezF1S8qWZKTTaQQ]
+6. Researching code classifier (summary of various research papers): [https://docs.google.com/document/d/1f1A5egdmMUQvAR5a42R8mC-PCU-ZWGq18sFMBuXyefQ]
+7. Code classifier dataset and code for all experimented classifier: [https://github.com/prasanna08/code-classifier-dataset]
+8. Performance comparison of various classifiers on code classifier dataset: [https://docs.google.com/spreadsheets/d/1tUdXqvox6Qbd9gm23JXO8HecEG466v9WL6U4Ek1gSJA]
