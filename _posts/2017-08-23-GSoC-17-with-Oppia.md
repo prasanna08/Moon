@@ -1,3 +1,11 @@
+---
+layout: post
+title: "GSoC 17 with Oppia"
+date: 2017-08-23
+excerpt: "A ton of text to test readability."
+tags: [sample post, readability, test]
+---
+
 # Google Summer of Code’17 with Oppia
 
 I’m Prasanna Patil. I’m a computer science undergraduate, currently in my senior year, from India. I have been contributing to open source for last one and a half years.
