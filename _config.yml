@@ -4,7 +4,7 @@ bio:                'Machine Learning Enthusisatic.'
 description:        ""
 reading_time:       true
 words_per_minute:   200
-logo:               'https://avatars1.githubusercontent.com/u/8678373?v=4&u=f3f0c326ad022a1280d1ccf7c86e6893b5c02292&s=400'
+logo:               'assets/img/logo.jpg'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
@@ -27,7 +27,7 @@ sass:
 future:             true
 
 # Comments
-disqus_shortname:   taylantatli
+#disqus_shortname:   taylantatli
 
 # Social
 # if you don't have any of social below, comment the line.
