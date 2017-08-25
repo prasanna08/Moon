@@ -60,7 +60,7 @@ The code classifier and its prediction service in frontend have been implemented
 * Initial directory setup for Oppia-ml repository. 
 * Started working on remote communication facilities on Oppia-ml side. This implements necessary functions for proper communication between Oppia and Oppia-ml.
 * Also finished README for new repository. It should act as a guide to install the Oppia-ml locally.
-* Pull requests: (https://github.com/oppia/oppia-ml/pull/4)[https://github.com/oppia/oppia-ml/pull/4] (directory setup), (https://github.com/oppia/oppia-ml/pull/10)[https://github.com/oppia/oppia-ml/pull/10] (remote communication functions).
+* Pull requests: (Directory setup)[https://github.com/oppia/oppia-ml/pull/4], (Remote communication functions) [https://github.com/oppia/oppia-ml/pull/10].
 
 ##### Week #2:
 * Pull request for remote communication facilities reviewed and merged successfully.
@@ -69,7 +69,7 @@ The code classifier and its prediction service in frontend have been implemented
 * Added a new admin config property on Oppia admin page for adding VM security key. This key is used for authenticating communication between Oppia and Oppia-ml by generating signature for messages.
 * Pull requests: https://github.com/oppia/oppia-ml/pull/10 (remote communication facilities) https://github.com/oppia/oppia-ml/pull/12 (Travis-CI) https://github.com/oppia/oppia-ml/pull/11 (Few fixes in installation script) https://github.com/oppia/oppia/pull/3542 (Admin config property).
 
-Week #3:
+##### Week #3:
 * Started working on main worker process. This is master process on Oppia-ml which coordinates everything on Oppia-ml.
 * Added Oppia-ml extension documentation on Oppia’s wiki.
 * Started working on design document for MR job to extract training data from production.
