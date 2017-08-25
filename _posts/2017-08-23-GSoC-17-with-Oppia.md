@@ -38,7 +38,7 @@ The aim of the project was to set up infrastructure for training machine learnin
 
 There are three main parts in the architecture shown above:
 
-![Markdowm Image][https://github.com/prasanna08/prasanna08.github.io/blob/gh-pages/assets/img/Oppia-ml%20architecture.jpg]
+![Markdowm Image][1]
 
 1. Frontend: this is where the student and the tutor interacts with Oppia. The prediction for new answers submitted by students also happens in frontend.
     * Initially, the creator (tutor) of an exploration creates and submits the training data in the editor view of the exploration. Then this training data is transferred to the backend along with other modifications made by creator. A new classifier training job is created whenever creator creates the training data for the first time or modifies the training data.
@@ -60,7 +60,7 @@ The code classifier and its prediction service in frontend have been implemented
 * Initial directory setup for Oppia-ml repository. 
 * Started working on remote communication facilities on Oppia-ml side. This implements necessary functions for proper communication between Oppia and Oppia-ml.
 * Also finished README for new repository. It should act as a guide to install the Oppia-ml locally.
-* Pull requests: https://github.com/oppia/oppia-ml/pull/4 (directory setup), https://github.com/oppia/oppia-ml/pull/10 (remote communication functions).
+* Pull requests: (https://github.com/oppia/oppia-ml/pull/4)[https://github.com/oppia/oppia-ml/pull/4] (directory setup), (https://github.com/oppia/oppia-ml/pull/10)[https://github.com/oppia/oppia-ml/pull/10] (remote communication functions).
 
 ##### Week #2:
 * Pull request for remote communication facilities reviewed and merged successfully.
@@ -152,3 +152,5 @@ Week #3:
 6. Researching code classifier (summary of various research papers): [https://docs.google.com/document/d/1f1A5egdmMUQvAR5a42R8mC-PCU-ZWGq18sFMBuXyefQ]
 7. Code classifier dataset and code for all experimented classifier: [https://github.com/prasanna08/code-classifier-dataset]
 8. Performance comparison of various classifiers on code classifier dataset: [https://docs.google.com/spreadsheets/d/1tUdXqvox6Qbd9gm23JXO8HecEG466v9WL6U4Ek1gSJA]
+
+[1]: https://github.com/prasanna08/prasanna08.github.io/raw/master/assets/img/Oppia-ml%20architecture.jpg
