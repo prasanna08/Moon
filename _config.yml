@@ -4,7 +4,7 @@ bio:                'Self taught machine learning enthusisatic.'
 description:        ""
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               'https://avatars1.githubusercontent.com/u/8678373?v=4&u=f3f0c326ad022a1280d1ccf7c86e6893b5c02292&s=400'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
