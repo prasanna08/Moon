@@ -9,7 +9,7 @@ background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://prasanna08.github.io
-future:             true
+
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
@@ -24,6 +24,7 @@ mathjax:            true
 sass:
   sass_dir:         _sass
   style:            compressed
+future:             true
 
 # Comments
 disqus_shortname:   taylantatli

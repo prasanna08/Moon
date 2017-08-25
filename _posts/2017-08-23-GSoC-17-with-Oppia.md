@@ -2,8 +2,8 @@
 layout: post
 title: "GSoC 17 with Oppia"
 date: 2017-08-23
-excerpt: "A ton of text to test readability."
-tags: [sample post, readability, test]
+excerpt: "My journey of Google Summer of Code 2017"
+tags: [GSoC, Oppia, Machine Learning, ML]
 ---
 
 # Google Summer of Code’17 with Oppia
