@@ -56,27 +56,27 @@ All of these algorithms were trained using various preprocessing steps and compa
 The code classifier and its prediction service in frontend have been implemented successfully. We are currently going through end to end testing of entire system. Once that is done the feature will be initially released for developers and then to the production in  succession.
 
 ### Weekly progress log
-##### Week #1:
+#### Week #1:
 * Initial directory setup for Oppia-ml repository. 
 * Started working on remote communication facilities on Oppia-ml side. This implements necessary functions for proper communication between Oppia and Oppia-ml.
 * Also finished README for new repository. It should act as a guide to install the Oppia-ml locally.
 * Pull requests: [Directory setup](https://github.com/oppia/oppia-ml/pull/4), [Remote communication functions](https://github.com/oppia/oppia-ml/pull/10).
 
-##### Week #2:
+#### Week #2:
 * Pull request for remote communication facilities reviewed and merged successfully.
 * Finished documentation for Oppia-ml extension. This document describes relation between Oppia and Oppia-ml.
 * Finished integrating Oppia-ml repository with Travis-CI.
 * Added a new admin config property on Oppia admin page for adding VM security key. This key is used for authenticating communication between Oppia and Oppia-ml by generating signature for messages.
 * Pull requests: [remote communication facilities](https://github.com/oppia/oppia-ml/pull/10) [Travis-CI](https://github.com/oppia/oppia-ml/pull/12) [Few fixes in installation script](https://github.com/oppia/oppia-ml/pull/11) [Admin config property](https://github.com/oppia/oppia/pull/3542).
 
-##### Week #3:
+#### Week #3:
 * Started working on main worker process. This is master process on Oppia-ml which coordinates everything on Oppia-ml.
 * Added Oppia-ml extension documentation on Oppia’s wiki.
 * Started working on design document for MR job to extract training data from production.
 * Pull requests: [main worker process](https://github.com/oppia/oppia-ml/pull/15) [small fix in communication function](https://github.com/oppia/oppia-ml/pull/16)
 * Wiki documentation: [https://github.com/oppia/oppia/wiki/Oppia-ml-Extension](https://github.com/oppia/oppia/wiki/Oppia-ml-Extension)
 
-##### Week #4:
+#### Week #4:
 * Pull request for main worker process reviewed and merged.
 * VM has been completely implemented. Now we can move to deployment testing and make sure that VM code is deployable.
 * Started reading research papers for machine learning classifier for code interaction.
@@ -84,49 +84,49 @@ The code classifier and its prediction service in frontend have been implemented
 * Summarised my findings on  automatic algorithm recognition based on programming schemas and beacons in research paper doc (link in References section).
 * Pull requests: [main worker process](https://github.com/oppia/oppia-ml/pull/15)
 
-##### Week #5:
+#### Week #5:
 * Read and summarized assessing roles of variables using program analysis research paper.
 * Read and summarized stanford’s moss related research paper. Implemented (and tested with some samples) winnowing algorithm which is used in research paper. 
 * Read overcode research paper. Understood the technical details used in this software.
 * Started working on implementation of data extraction query controller in a pull request. PR merged successfully.
 * Pull requests: [data extraction](https://github.com/oppia/oppia/pull/3581)
 
-##### Week #6:
+#### Week #6:
 * Read and summarized the Detecting Source Code Similarity Using Code Abstraction paper.
 * Extracted python program dataset from Oppia. Filtered the dataset according to whether program has correct syntax or program compiles successfully and whether program executes (in a restricted environment).
 * Started deployment testing of Oppia-ml on a real time GCE instance.
 * Fixed issue with GCE metadata platform services.
 * Pull requests: [metadata](https://github.com/oppia/oppia-ml/pull/17)
 
-##### Week #7:
+#### Week #7:
 * Started tagging the dataset manually. Only programs were available and required to be tagged manually so that performance of various classifier can be compared.
 * Tagged a total of 500 programs in the dataset. That should be sufficient to compare classifiers. Programs were classified into one of the 6 classes.
 * Started implementing different classifiers (link to the code is present in References section).
 * Using SVM + variable name renaming (as preprocessing) for baseline. Baseline performance is ~74% accuracy with 0.74 of F1-score. (link to spreadsheet containing performance of various classifiers is available in References section).
 
-##### Week #8:
+#### Week #8:
 * Testing more algorithms such as Decision tree, Random forest, Winnowing + knn, winnowing + svm, winnowing + k-medoids.
 * Tested winnowing + KNN + SVM pipeline (ensemble methods). This method provides best F1 score of 0.88 with accuracy of 88%.
 * Started working on code classifier on Oppia-ml. The winnowing + KNN + SVM pipeline is selected as code classifier as of now. Submitted PR for code classifier.
 * Job request message structure has been changed slightly. Submitted a PR for this changes in Oppia-ml.
 * Pull requests: [job request message structure](https://github.com/oppia/oppia-ml/pull/18), [code classifier](https://github.com/oppia/oppia-ml/pull/19)
 
-##### Week #9:
+#### Week #9:
 * Code classifier PR is currently under review. More and more work is going on in code classifier.
 * Pull requests: [code classifier](https://github.com/oppia/oppia-ml/pull/19)
 
-##### Week #10:
+#### Week #10:
 * Code classifier PR is reviewed and merged.
 * Started working on frontend prediction API. Since code classifier uses python’s native tokenizer, first task was to translate this python module into equivalent JS code so that it can be used in prediction.
 * Implemented necessary preprocessing functions for frontend prediction API, including functions for Winnowing, KNN prediction, SVM prediction.
 * Submitted PR for frontend code prediction API for code classifier.
 * Pull requests: [frontend prediction API for code classifier](https://github.com/oppia/oppia/pull/3719), [code classifier](https://github.com/oppia/oppia-ml/pull/19)
 
-##### Week #11:
+#### Week #11:
 * Implemented all necessary tests for frontend code prediction API. Frontend prediction PR is still under review.
 * Pull requests: [frontend prediction API for code classifier](https://github.com/oppia/oppia/pull/3719)
 
-##### Week #12:
+#### Week #12:
 * Merged the frontend code prediction API pull request.
 * Submitted a PR for dynamic inclusion of JS code required for frontend prediction API. However,this PR was closed because we decided to use old dependencies infrastructure for prediction services because there is some parallel work going on to improve old dependency infrastructure.
 * Submitted new PR for enabling code classifier in Oppia.
